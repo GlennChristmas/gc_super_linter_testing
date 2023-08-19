@@ -3,6 +3,7 @@
 on:
   pull_request:
     branches: [main, master]
+  workflow_dispatch:
 
 name: lint-changed-files
 
